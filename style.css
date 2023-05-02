@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.block img {
+    width: 300px;
+    height: 200px;
+}
+
+.block h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.block p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    margin: 20px 100px;
+}
+
+.green-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
